@@ -1,0 +1,31 @@
+body {
+  padding-bottom: 500px;
+}
+h3 {
+  color: green;
+}
+p {
+  color: blueviolet;
+}
+/* comentario */
+.paragraph {
+  color: aqua;
+  background-color: black;
+  padding: 5px;
+}
+
+#exclusiveh1 {
+  background-color: purple;
+  color: yellow;
+  padding: 10x;
+}
+
+h2 {
+  border-bottom: 2px solid red;
+}
+.classh2 {
+  border-bottom: 3px solid blue;
+}
+#exclusiveh2 {
+  border-bottom: 4px solid green;
+}
