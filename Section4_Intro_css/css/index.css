@@ -29,3 +29,60 @@ h2 {
 #exclusiveh2 {
   border-bottom: 4px solid green;
 }
+
+.colorname {
+  color: rgb(164, 15, 45);
+}
+#colornameid {
+  color: #176;
+}
+.bg {
+  background-color: black;
+  color: yellow;
+}
+.bg2 {
+  background-color: green;
+  color: gray;
+}
+.opacity-div {
+  background-color: pink;
+  opacity: 0.2;
+
+  span {
+    color: black;
+  }
+}
+.rgbaopacidade {
+  background-color: rgba(90, 120, 20, 0.2);
+  color: black;
+}
+.backgroundimage {
+  background-image: url(../img/valfend.jpg);
+  h1 {
+    color: blue;
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+.backgroundimage,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url(../img/valfend.jpg);
+}
+/* isso abaixo é muito importante, trabalhando com redimencionamento de imagens */
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+.heith-width {
+  height: 200px;
+  width: 100px;
+  background-color: red;
+}
+
+.heith-width2 {
+  height: 200px;
+  background-color: brown;
+}
