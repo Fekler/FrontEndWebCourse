@@ -292,3 +292,40 @@ h2 {
 #invisible {
   display: none;
 }
+
+.static {
+  position: static;
+  background-color: #390;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.relative {
+  position: relative;
+  background-color: #499;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #691;
+  color: #fff;
+  width: 75px;
+  height: 75px;
+  left: 20px;
+}
+
+.relative-container {
+  position: absolute;
+  background-color: #691;
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  border: 3px solid crimson;
+  margin-top: 120px;
+}
