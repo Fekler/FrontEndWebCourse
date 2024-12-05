@@ -193,6 +193,185 @@ h2 {
   h2 {
     background-color: aqua;
     outline: 20px solid #fff;
-
   }
+}
+.text-aligment {
+  color: #111;
+}
+.text-aligment-right {
+  text-align: right;
+}
+
+.container-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.linethrought {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.letterspacing {
+  letter-spacing: 5px;
+}
+
+.serif {
+  font-family: serif;
+}
+.sans-serif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
+
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
+
+.fontweightheavy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.fontweightmedium {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.fontweightlight {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.fontsizesmall {
+  font-size: 6px;
+}
+.fontsizemedium {
+  font-size: 20px;
+}
+
+.fontsizelarger {
+  font-size: 50px;
+}
+
+.inlineblock {
+  background-color: greenyellow;
+  border: #111 solid 2px;
+  display: inline-block;
+}
+.spandisplay {
+  display: block;
+}
+
+#invisible {
+  display: none;
+}
+
+.static {
+  position: static;
+  background-color: #390;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.relative {
+  position: relative;
+  background-color: #499;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #691;
+  color: #fff;
+  width: 75px;
+  height: 75px;
+  left: 20px;
+}
+
+.relative-container {
+  position: relative;
+  background-color: #691;
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  border: 3px solid crimson;
+  margin-top: 120px;
+}
+
+.pos-fixed {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #523;
+  margin-top: 120px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+.pos-sticky {
+  background-color: #505;
+  width: 100px;
+  height: 100px;
+  border: 1px solid magenta;
+  position: sticky;
+  top: 10px;
+  right: 20px;
+}
+
+.aboslut1,
+.aboslut2,
+.aboslut3 {
+  position: absolute;
+  background-color: #123;
+  width: 50px;
+  height: 50px;
+}
+
+.aboslut1 {
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.aboslut2 {
+  top: 10px;
+  left: 10px;
+  bottom: 20px;
+  background-color: green;
+}
+.aboslut3 {
+  top: 40px;
+  left: 40px;
+  background-color: red;
 }
