@@ -8,6 +8,7 @@ html {
   position: relative;
   margin: 50px auto;
   padding: 20px 50px;
+  border-radius: 15px;
 }
 .bold {
   font-weight: bold;
@@ -38,6 +39,7 @@ html {
 .quotes-container {
   background-color: #ddd;
   padding: 30px;
+  border-radius: 15px;
 }
 
 .quotes-container blockquote {
@@ -53,7 +55,6 @@ html {
   margin: 25px 0;
   padding: 25px 0;
   border-top: 1px dashed #ddd;
-  border-bottom: 1px dashed #ddd;
 }
 .cusiosities-list {
   height: 30px;
@@ -62,4 +63,6 @@ html {
 .img-bold {
   font-weight: bold;
   text-align: center;
+  margin: 25px 0;
+  padding: 25px 0;
 }
