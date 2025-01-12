@@ -53,13 +53,86 @@
           <label for="firstname">Nome: </label>
           <input type="text" name="firstname" />
           <label for="lastname">Sobrenome: </label>
-          <input type="text" name="lastname" />
+          <input type="text" list="flavors" name="lastname" />
         </fieldset>
       </div>
       <div>
-        
+        <label for="flavor">Escolha um sabor</label>
+        <input type="text" list="flavors" name="flavor" id="" />
+        <datalist id="flavors">
+          <option value="Cereja"></option>
+          <option value="Morango"></option>
+          <option value="Abacaxi"></option>
+          <option value="Chocolate"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="email"> Digite seu email: </label>
+        <input type="email" name="email" id="" />
+        <label for="password">Digite sua senha: </label>
+        <input type="password" name="password" id="" />
+      </div>
+
+      <div class="radio">
+        <label for="car_model">Modelo do carro: </label>
+        <div class="radio">
+          <input type="radio" name="car_model" value="bmw" />
+          <label for="bmw">BMW</label>
+          <input type="radio" name="car_model" value="ferrari" />
+          <label for="ferrari">FERRARI</label>
+          <input type="radio" name="car_model" value="renault" />
+          <label for="renault">Renault</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="optionals">Opcionais do carro: </label>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="big_tires" id="" />
+          <label for="big_tires">Aro 22</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="turbo" id="" />
+          <label for="turbo">Turbina</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="date-input">Insira uma data</label>
+        <input type="date" name="date-input" id="" />
+      </div>
+
+      <div>
+        <label for="upload-archive">Selecione o arquivo</label>
+        <input type="file" name="upload-archive" id="" />
+      </div>
+      <div>
+        <label for="telefone">Adicione o Telefone</label>
+        <input type="tel" name="telefone" id="" />
+      </div>
+
+      <div>
+        <label for="quantity">informe a quantidade</label>
+        <input type="number" name="quantity" id="" />
+      </div>
+      <div>
+        <label for="email">Informe o seu email</label>
+        <input type="email" name="email" id="" required/>
+      </div>
+      <div>
+        <label for="value">Digite algum valor</label>
+        <input type="text" name="value" id="" value="auto" />
+      </div>
+      <div>
+        <label for="value">Digite algum valor</label>
+        <input type="text" name="value" id="" value="auto" disabled />
+      </div>
+      <div>
+        <label for="value">Digite algum valor</label>
+        <input type="text" name="value" id="" placeholder="Digite um valor" />
       </div>
       <input type="submit" value="Enviar" />
+      <input type="reset" value="Reset" />
     </form>
   </body>
 </html>
