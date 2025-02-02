@@ -91,3 +91,24 @@ textarea {
   display: inline-block;
   margin: 0 30px 30px 0;
 }
+.optional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.box-input p {
+  margin-bottom: 15px;
+}
+.btn-submit {
+  background-color: #673ab7;
+  color: white;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-submit:hover {
+  background-color: purple;
+}

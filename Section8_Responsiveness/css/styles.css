@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    color: blue;
+  }
+}
+p {
+  color: aqua;
+  background-color: green;
+}
+@media screen and (min-width: 800px) {
+  p {
+    color: green;
+    background-color: aqua;
+  }
+}
+
+/* 600 e abaixo = celular 
+768 ate 600 = tablet
+992 ate 768 = mini laptops
+992 e acima laptops e desktops */
+.header-image {
+  background-image: url("images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.header {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+}
+.pedro-body {
+  background-color: rgb(238, 228, 220);
+  padding: 20px;
+}
